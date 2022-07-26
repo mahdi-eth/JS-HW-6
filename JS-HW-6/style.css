@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+form {
+  border: 0.1rem solid greenyellow;
+  margin: 5rem 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+form input,
+form textarea {
+  margin-bottom: 2rem;
+}
+
+.formDataHtmlLiclass {
+  border: 0.1rem solid greenyellow;
+  margin: 8rem 20rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
