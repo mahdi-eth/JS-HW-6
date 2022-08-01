@@ -1,14 +1,16 @@
 html {
   font-size: 62.5%;
 }
+
 form {
   border: 0.1rem solid greenyellow;
-  margin: 5rem 20rem;
+  margin: 5rem auto;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
   padding: 1.5rem;
   border-radius: 2rem;
+  width: 40%;
 }
 
 form input,
@@ -18,7 +20,18 @@ form textarea {
 
 .formDataHtmlLiclass {
   border: 0.1rem solid greenyellow;
-  margin: 8rem 20rem;
+  margin: 8rem auto;
   padding: 1.5rem;
   border-radius: 2rem;
+  list-style-type: none;
+  width: 70%;
+}
+
+.ul-image {
+  width: 30rem;
+  height: 23rem;
+  background-image: url(./wp6011655.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
